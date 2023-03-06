@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <Link rel="stylesheet" href="styles.css"/>
+   
+  <script
+    src="https://kit.fontawesome.com/7a4b62b0a4.js"
+    crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body,html{
+    font-family: "Poppins",sans-serif;
+    scroll-behavior: smooth;
+    color:white;
+}
+.header{
+    position:sticky;
+    top:0;
+}
+.content h1 .span{
+    color:yellow;
+    font-size: 8em;
+    margin-left: -117px;
+    font-family: cursive;
+    text-shadow: 2px skyblue;
+
+}
+.content h1{
+    font-weight:bolder;
+    font-size: 2em;
+    font-style: oblique;
+
+}
+.content h2{
+    font-size: 4em;
+    font-family:sans-serif;
+    font-style: oblique;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 30px;
+    background-color: rgb(40, 40, 43);
+    /* background-color:rgb(59, 109, 245); */
+
+
+}
+.menu a {
+    margin:0 20px;
+    text-decoration: none;
+    color:white;font-size:1 rem;
+    font-weight: 700;
+    
+}
+.logo{
+    font-size:1.5rem;
+    font-weight:700;
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu a:hover{
+    border-bottom: 2px solid rgb(199, 63, 226);
+}
+main{
+    background-color: rgb(47, 47, 51);
+
+}
+#home .container{
+    display:flex;
+    align-items: center;
+    gap:300px;
+    border-bottom: 10px solid white;
+
+}
+.img_content img{
+    border-radius: 500px;
+    height:500px;
+    width:400px;
+    
+    
+}
+.img_content{
+    padding:20px;
+}
+#projects{
+    padding:20px;
+    /* background-color: #003251; */
+    background-color: rgb(54, 69, 79);
+    text-align: center;
+   
+
+    
+}
+.project_container img{
+    height:200px;
+    width:200px;
+
+  
+}
+
+.project_container:hover{
+    
+    box-shadow:10px 10px 10px 0 rgb(32, 233, 233);
+
+}
+#projects .container{
+    display:flex;
+    justify-content: space-around;
+    padding:10px;
+    margin:10px;
+}
+#projects .container2{
+    display:flex;
+    justify-content: space-around;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    
+}
+.container h1{
+    align-items: center;
+}
+#contact{
+    /* background-color: #0089b7; */
+    background-color: rgb(44, 103, 126);
+}
+#contact .container h1{
+    text-align: center;
+    padding:20px ;
+    margin:5px;
+}
+.top_contact{
+    font-size: 1.5em;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    margin:20px;
+   
+}
+.bottom_contact{
+    font-size:1.5em;
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    margin:20px;
+   
+}
+.top_contact .contactway .fabfa-twitter:hover{
+    box-shadow:10px 10px 10px 0 rgb(32, 233, 233);
+}
+
+
+    </style>
+  
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <h3>Portfolio</h3>
+            </div>
+            <div class="menu">
+                
+                    <a href="#hero">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contacts</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+        <div class="container">
+        <div class="img_content animate__bounce">
+        <img src="dew.jpg" alt="profile"/>
+        </div>
+        <div class="content">
+            <h1><span class="span">Hi</span>  I'm  Drake louis</h1>
+            <h2>Front End Developer</h2>
+        </div>
+        </div>
+    </main>
+</section>
+    <section id="projects">
+        <h1>PROJECTS</h1>
+        <div class="container">
+            
+            <div class="project_container">
+                <img src="tribute.jpg" alt="tribute page"/>
+                <h3>Tribute Page</h3>
+            </div>
+            <div class="project_container">
+                <img src="temp.png" alt="wiki"/>
+                <h3>Temperature converter</h3>
+                </div>
+                <div class="project_container">
+                    <img src="cal 3.jpg" alt="calc"/>
+                    <h3>Calculator</h3>
+                </div>
+                
+        </div>
+        <div class="container2">
+            <div class="project_container">
+                <img src="map.jpeg" alt="map"/>
+                <h3>Weather app</h3>
+            </div>
+            <div class="project_container">
+                <img src="quiz.png" alt="machine"/>
+                <h3>Quiz app</h3>
+            </div>
+            <div class="project_container">
+                <img src="game 2.jpg" alt="tic tac "/>
+                <h3>Ping Pong</h3>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h1>Let's work together</h1>
+            <div class="top_contact">
+                <div class="contact_way">
+                    <i class="fab fa-twitter"></i>
+                    <h3>Twitter</h3>
+                </div>
+                <div class="contact_way">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>Linked in</h3>
+                </div>
+                <div class="contact_way">
+                    <i class="fa fa-envelope"></i>
+                    <h3>Send mail</h3>
+                </div>
+                
+            </div>
+            <div class="bottom_contact">
+                <div class="contact_way">
+                    <i class="fab fa-github"></i>
+                    <h3>github</h3>
+                </div>
+                <div class="contact_way">
+                    <i class="fa fa-mobile"></i>
+                    <h3>Mobile</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
